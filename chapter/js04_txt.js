@@ -117,7 +117,7 @@ function createRecommendation() {
       if (monthsBox.value <= 9) { // 9 or fewer months per year, no crop test needed
          messageHeadElement.innerHTML = "W1205";
          messageElement.innerHTML = W1205Desc;
-      } else { // 10+ months of farming per year
+   }  else { // 10+ months of farming per year
          if (document.getElementById("wheat").checked || document.getElementById("corn").checked || document.getElementById("soy").checked) {
             messageHeadElement.innerHTML = "W2500";
             messageElement.innerHTML = W2500Desc;
